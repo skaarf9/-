@@ -1,0 +1,130 @@
+body{
+    background-color: lightgrey;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+input[type="button"]{
+    border: none;
+}
+th, td
+{
+    border: 1px solid black;
+}
+.loginUser{
+    display:block;
+    height: 20px;
+    width: 70px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.return{
+    display:block;
+    position:relative;
+    top:10%;
+    left:5%;
+    height: 20px;
+    width: 40px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.searchBox{
+    display: block;
+    position:relative;
+    top:7%;
+    left:37.5%;
+    height: 30px;
+    width: 25%;
+    overflow: hidden;
+    line-height: 175%;
+}
+.search{
+    position: absolute;
+    left:-28%;
+    top:50%;
+    height:100%;
+    transform: translate(50%,-50%);
+    background-color: antiquewhite;
+    width: 76%;
+    border: none;
+}
+.search:focus{
+    background-color: deepskyblue;
+    outline:none;
+    border-bottom: 2px dashed #000000;
+}
+.title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: dimgray;
+    top:10%;
+    right:5%;
+    color: azure;
+}
+.add{
+    display:block;
+    position:relative;
+    top:20%;
+    left:5%;
+    height: 20px;
+    width: 40px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-color: dimgray;
+    color: azure;
+    text-align: center;
+}
+.resultBox{
+    position: absolute;
+    display: block;
+    left:25%;
+    width: 50%;
+    height: 70%;
+    top:20%;
+    background-color: aquamarine;
+    border-collapse:collapse;
+    text-align: center;
+}
+.tHead>th:nth-child(1){
+    width:10%;
+    overflow: auto;
+}
+.tHead>th:nth-child(2){
+    width:10%;
+    overflow: auto;
+}
+.tHead>th:nth-child(3){
+    width:5%;
+    overflow: auto;
+}
+.tHead>th:nth-child(4){
+    width:10%;
+    overflow: auto;
+}
+.tHead>th:nth-child(5){
+    width:18%;
+    overflow: auto;
+}
+.tHead>th:nth-child(6){
+    width:20%;
+    overflow: auto;
+}
+.tHead>th:nth-child(7){
+    width:15%;
+    overflow: auto;
+}
